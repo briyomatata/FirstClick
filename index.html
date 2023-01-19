@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!-- font-awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+  <!-- header section start -->
+  <header>
+    <a href="#" class="logo">First Click Cyber</a>
+
+    <div class="toggleMenu" onclick="toggleMenu()"></div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- <div class="fas fa-bars"></div> -->
+  </header>
+
+  <!-- header section finish -->
+
+  <!-- home section start -->
+
+  <section class="home" id="home">
+
+    <div class="content">
+      <h1>First Click Cyber Solutions</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae minima illum distinctio earum quae harum,
+        dolores pariatur iste facilis ullam.</p>
+      <a href="#"><button>Know More</button></a>
+    </div>
+    <div class="F-Image">
+      <img src="./images/cyber.jpg">
+    </div>
+
+  </section>
+
+  <!-- home section finish -->
+
+
+  <!-- section About -->
+
+  <section class="about" id="about">
+
+    <div class="about-content">
+      <h1>About Us</h1>
+      <p>We are a cyber cafe that provide affordable internet services</p>
+    </div>
+
+
+  </section>
+
+  <!-- section About finish-->
+
+
+
+  <!-- section services-->
+  <section class="services" id="services">
+    <h1>Our Services</h1>
+    <div class="row">
+      <div class="services-right">
+        <div class="row">
+          <div class="card">
+            <box-icon type="logo" name="sketch" color="#4CAF50" size="60px" </box-icon>
+              <h2>Internet Browsing</h2>
+          </div>
+          <div class="card">
+            <box-icon type="logo" name="android" color="#4CAF50" size="60px" </box-icon>
+              <h2>KRA Services</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+            <box-icon type="logo" name="postgresql" color="#4CAF50" size="60px" </box-icon>
+              <h2>E-Citizen Services</h2>
+          </div>
+          <div class="card">
+            <box-icon type="solid" name="data" color="#4CAF50" size="60px" </box-icon>
+              <h2>NTSA Services</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+            <box-icon type="logo" name="postgresql" color="#4CAF50" size="60px" </box-icon>
+              <h2>Web-Design</h2>
+          </div>
+          <div class="card">
+            <box-icon type="solid" name="data" color="#4CAF50" size="60px" </box-icon>
+              <h2>Graphic Design</h2>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- section services finish-->
+
+  <!-- section Contact us start-->
+
+  <section class="contact" id="contact">
+    <div class="Content">
+      <h2>Contact Us</h2>
+      <p>Please Find details on how to reach us either through mobile or our physical location</p>
+    </div>
+
+    <div class="Contact-container">
+      <div class="contactInfo">
+        <div class="Box">
+          <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Location</h3>
+            <p>Ongata Rongai Opposite Rubis</p>
+          </div>
+        </div>
+
+        <div class="Box">
+          <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Phone</h3>
+            <p>0715599743</p>
+          </div>
+        </div>
+
+        <div class="Box">
+          <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+          <div class="text">
+            <h3>Email</h3>
+            <p>firstClick@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="ContactForm">
+        <form>
+          <h2>Send Message</h2>
+          <div class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Full Name</span>
+          </div>
+
+          <div class="inputBox">
+            <input type="text" name="" required="required">
+            <span>Email</span>
+          </div>
+
+          <div class="inputBox">
+            <textarea required="required"></textarea>
+
+          </div>
+
+          <div class="inputBox">
+            <input type="submit" name="" value="Send">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- section Contact us finish-->
+
+  <!-- footer section -->
+  <footer>
+    <p>Made by Otieno Matata </p>
+  </footer>
+
+  <!-- footer section finish -->
+
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js"></script>
+
+  <!-- local javascript -->
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
